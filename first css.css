@@ -1,0 +1,37 @@
+body {
+    background: black;
+    background: linear-gradient(80deg, gold 10%, white 30%, black 100%);
+        font-size: 1.1em;
+    }
+    img {
+        transform: translate(345%, 30%);
+        border-radius: 30%;
+    }
+h1 {
+    color: mintcream;
+    margin-left:  0px;
+}
+p {
+    color: mintcream;
+    margin-left: 0px;
+}
+
+b {
+    color: red;
+    margin-left: 0px;
+}
+
+button
+{border-radius: 40%;}
+
+h1
+{text-align: center;}
+p
+{text-align: center;}
+.Rollbutton {
+    width: 50px;
+    height: 30px;
+}
+#container {
+    transform: translate(44%, 0%);
+}

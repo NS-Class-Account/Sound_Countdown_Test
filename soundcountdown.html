@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--This is a webpage I created to complete my assignment for csc102 W1-1
+Nathan Salgado-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdownsound</title>
+    <link rel="stylesheet" href="first css.css">
+</head>
+<body>
+    <audio  autoplay>
+        <source src="us-lab-background.mp3"  type="audio/mp3">
+       </audio>
+    <img src="UATspaceLogo-2.jpg" />
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>
+        UAT Space Program
+    </h1>
+    <script>
+        //Script for the alert once the page is open.
+        alert("This is a test of the document.write function");
+    </script>
+    <p>
+        This is my test of the paragraph tags.
+    </p>
+    <p>
+        This my test of the document write function.
+    </p>
+<br>
+    <!--Script for the countdown timer.-->
+    <p id="countdown">10</p>
+    <p>
+    The countdown begins here
+    </p>
+       <p><button id="startbutton" onclick="startcountdown()" style="background-color: gold;">
+        
+        Start</button>
+
+    <button id="stopbutton" onclick="stopcountdown()" style="background-color: silver;">
+        
+        Stop</button>
+
+
+    </p>
+<br>
+<p>
+    Welcome to the Casino
+</p>
+<p>Try your luck here, just remember: the house always wins!</p>
+    <!--Link to the casino from Javascript to HTML-->
+    <p id="casino">results</p>
+</p>
+<p><button onclick="roll()" class="Rollbutton" style="background-color: rgb(91, 139, 51);"> Roll</button>
+    <br>
+    <!---Displays the results as the user clicks the button-->
+    <h3>roll results</h3>
+    <div id="die1Res">Die1 results here</div>
+    <div id="die2Res">Die2 results here</div>
+    <div id="sumRes">Sum results here</div>
+    <div id="finalRes">Finalresults here</div>
+</p>
+<p>
+
+
+</p>
+</body>
+<script src="countdown.js"></script>
+<script src="casino.js"></script>
+</html>
